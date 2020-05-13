@@ -1,0 +1,161 @@
+
+
+/* Características principales: Header, Main and Footer */
+
+body {
+    background-color: gray;
+    font-family: 'Poiret One';
+    color: #FFF;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #3c3c3b;
+    width: 100%;
+    margin: 0;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*------------------- HEADER---------------- */
+
+header {
+    background-color: white;
+}
+.header-caja {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+}
+.header-bloque {
+    position: absolute;
+}
+
+/* HEADER IZQUIERDO */
+.header-izquierdo {
+    width: 20%;
+    background-color: blue;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+ul {
+    height: 100%;
+    width: 80%;
+    list-style: none;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.elemento-nav {
+    position: absolute;
+    width: 30%;
+    height: 30px;
+    background-color: cyan;
+    margin: 17px 5px 17px 5px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+    .html-nav {
+        left: 0;
+        right: 66%;
+    }
+    .css-nav {
+        left: 33%;
+        right: 33%;
+    }
+    .contacto-nav {
+        left: 66%;
+        right: 0;
+    }
+
+/* HEADER CENTRO*/
+
+.header-centro {
+    width: 60%;
+    height: 100%;
+    background-color: green;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#nombre-pagina {
+    width: 180px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: ;
+    margin: auto;
+}
+
+/* HEADER DERECHO */
+.rrss-header {
+    height: 30px;
+}
+.header-derecho {
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    right: 0;
+}
+    .rrss-header-caja {
+        position: relative;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: 17px auto;
+        background-color: chocolate;
+        width: 140px;
+        height: 30px;
+    }
+        .rrss-header {
+
+        }
+
+
+/*----------------------------MAIN-------------------*/
+main {
+    background-color: #131313;
+    margin-top: 65px;
+}
+
+/*FRASE SUPERIOR*/
+.lenguaje-box-main {
+    background-color: violet;
+    width: 100%;
+    height: 200px;
+
+}
+
+
+
+
+
+
+#html-fondo {
+    width: 600px;
+}
+
+.rrss-footer {
+    width: 40px;;
+}
