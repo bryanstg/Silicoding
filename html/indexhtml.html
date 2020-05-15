@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="content" content="recuerda lo aprendido programando">
         <meta name="autor" content="BryanstGarcia">
-        <meta name="content" content="Recuerda lo aprendido en HTML">
-        <meta name="keywords" content="HTML, CSS, Desarrollo, Web, Frontend">
+        <meta name="keywords" content="HTML, CSS, Javascript, Python, Desarrollo, Web">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Silicoding</title>
-
-    </head>
-    <body>
-        <header>
-            <div class="header-izquierdo">
-                <span id="nombre-pagina"><img src="logos/nombreletrablanca.png" alt="Silicoding"></span>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylehtml.css" type="text/css">
+      </head>
+      <body>
+        <header class="header-caja">
+            <div class="header-centro header-bloque">
+                <img id="nombre-pagina" src="../logos/nombreletrablanca.png" alt="Silicoding">
             </div>
-            <div class="header-derecho">
-                <div>
-                    <span id="contactos-header">contactos</span>
-                </div>
-                <div class="rrss-header logo-header">
-                    <a class="rrss-header logo-instagram" href="#" target="_blank"><img src="logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
-                    <a class="rrss-header logo-linkedin" href="#" target="_blank"><img src="logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
-                    <a class="rrss-header logo-twitter" href="#" target="_blank"><img src="logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
-                    <a class="rrss-header logo-whatsapp" href="#" target="_blank"><img src="logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
+            <div class="header-derecho header-bloque">
+                <div class="rrss-header-caja">
+                    <a href="#" target="_blank"><img class="rrss-header logo-instagram" src="../logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
+                    <a href="#" target="_blank"><img class="rrss-header logo-linkedin" src="../logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
+                    <a href="#" target="_blank"><img class="rrss-header logo-twitter" src="../logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
+                    <a href="#" target="_blank"><img class="rrss-header logo-whatsapp" src="../logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
                 </div>
             </div>
-        <!--<div class="barra-navegacion">
-                <nav class="navegacion">
-                    <ul>
-                        <li class="elemento-barra-nav">html</li>
-                        <li class="elemento-barra-nav">css</li>
-                        <li class="elemento-barra-class">contacto</li>
-                    </ul>
-                </nav>
-            </div> -->
+            <nav class="navegacion header-izquierdo header-bloque">
+                <ul>
+                    <li class="elemento-nav html-nav"><a href="">html</a></li>
+                    <li class="elemento-nav css-nav"><a href="">css</a></li>
+                    <li class="elemento-nav contacto-nav"><a href="">contacto</a></li>
+                </ul>
+            </nav>
         </header>
+
         <main>
             <div class="frase-box frase">
                 <p class="frase-top frase">Tienes todo lo que puedas querer</p>
@@ -84,12 +81,20 @@
         
               </div>
         </main>
-        <footer>
-            <div class="rrss-caja-footer">
-                <a class="rrss-footer logo-instagram" href="#" target="_blank"><img src="logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
-                <a class="rrss-footer logo-linkedin" href="#" target="_blank"><img src="logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
-                <a class="rrss-footer logo-twitter" href="#" target="_blank"><img src="logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
-                <a class="rrss-footer logo-whatsapp" href="#" target="_blank"><img src="logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-interno rrss">
+                    <a  href="#" target="_blank"><img class="rrss-footer logo-instagram" src="../logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
+                    <a  href="#" target="_blank"><img class="rrss-footer logo-linkedin" src="../logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
+                    <a  href="#" target="_blank"><img class="rrss-footer logo-twitter" src="../logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
+                    <a  href="#" target="_blank"><img class="rrss-footer logo-whatsapp" src="../logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
+                </div>
+                <div class="footer-interno copy">
+                    <p class="copyr">Esta es solamente una página de prueba</p>
+                    <p class="copyr">by: BryanstGarcia</p>
+                    <p class="copyr">Lima, Perú</p>
+                    <p class="copyr">Copyright 1999-2020 by My mum. All Rights Reserved.</p>
+                </div>
             </div>
         </footer>
     </body>

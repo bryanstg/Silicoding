@@ -13,7 +13,7 @@
   <body>
     <header class="header-caja">
         <div class="header-centro header-bloque">
-            <img id="nombre-pagina" src="logos/nombreletrablanca.png" alt="Silicoding">
+            <a href="#"></a><img id="nombre-pagina" src="logos/nombreletrablanca.png" alt="Silicoding"></a>
         </div>
         <div class="header-derecho header-bloque">
             <div class="rrss-header-caja">
@@ -25,8 +25,8 @@
         </div>
         <nav class="navegacion header-izquierdo header-bloque">
             <ul>
-                <li class="elemento-nav html-nav"><a href="">html</a></li>
-                <li class="elemento-nav css-nav"><a href="">css</a></li>
+                <li class="elemento-nav html-nav"><a href="html/indexhtml.html">html</a></li>
+                <li class="elemento-nav css-nav"><a href="#">css</a></li>
                 <li class="elemento-nav contacto-nav"><a href="">contacto</a></li>
             </ul>
         </nav>
@@ -40,27 +40,37 @@
             </div>
         </div>
         <div class="lenguaje-box-main">
-            <div class="lenguaje-box">
-                <a href="indexhtml.html">
-                    <img id="html-fondo" src="fotos/htmlbackground.jpg" alt="">
-                    <h2>HTML</h2>
-                    <p>hyper text markup languaje</p>
+            <a href="html/indexhtml.html">
+            <div class="lenguaje-box" id="lenguaje-html">
+                    <!-- <img class="lenguaje-contenido lenguaje foto" id="html-fondo" src="fotos/htmlbackground.jpg" alt="Codigo HTML de fondo"> -->
+                    <h2 class="lenguaje-contenido" id="html-titulo">HTML</h2>
+                    <p  class="lenguaje-contenido" id="html-definicion">hyper text markup languaje</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="lenguaje-box" id="lenguaje-css">
+                    <!-- <img  class="lenguaje-contenido" id="css-fondo" src="fotos/htmlbackground.jpg" alt="Codigo css de fondo"> -->
+                    <h2  class="lenguaje-contenido" id="css-titulo">CSS</h2>
+                    <p  class="lenguaje-contenido" id="css-definicion">cascading style sheet</p>
                 </a>
-            </div>
-            <div class="lenguaje-box">
-                <a href="#">
-                    <img src="" alt="">
-                    <h2>CSS</h2>
-                    <p>cascading style sheet</p>
-                </a>
-            </div>
+            </div>    
         </div>
     </main>
     <footer class="footer">
-        <a  href="#" target="_blank"><img class="rrss-footer logo-instagram" src="logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
-        <a  href="#" target="_blank"><img class="rrss-footer logo-linkedin" src="logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
-        <a  href="#" target="_blank"><img class="rrss-footer logo-twitter" src="logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
-        <a  href="#" target="_blank"><img class="rrss-footer logo-whatsapp" src="logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
+        <div class="footer-container">
+            <div class="footer-interno rrss">
+                <a  href="#" target="_blank"><img class="rrss-footer logo-instagram" src="logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
+                <a  href="#" target="_blank"><img class="rrss-footer logo-linkedin" src="logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
+                <a  href="#" target="_blank"><img class="rrss-footer logo-twitter" src="logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
+                <a  href="#" target="_blank"><img class="rrss-footer logo-whatsapp" src="logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
+            </div>
+            <div class="footer-interno copy">
+                <p class="copyr">Esta es solamente una página de prueba</p>
+                <p class="copyr">by: BryanstGarcia</p>
+                <p class="copyr">Lima, Perú</p>
+                <p class="copyr">Copyright 1999-2020 by My mum. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
   </body>
 </html>
