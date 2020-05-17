@@ -19,6 +19,7 @@ a:link, a:visited, a:active {
 
 header {
     background-color: #131313;
+    margin: 0;
 }
 .header-caja {
     position: relative;
