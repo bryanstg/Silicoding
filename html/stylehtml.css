@@ -129,17 +129,17 @@ ul {
         background-color: #131313;
         margin: 0;
         width: 100%;
+        height: 2500px;
+        position: relative;
 
     }
     /*FRASE SUPERIOR*/
 .main-1 {
-    /* background-color: violet; */
     width: 100%;
     height: 300px;
     position: relative;
 }
 .frase-box {
-    /* background-color: teal; */
     position: absolute;
     left: 0;
     right: 0;
@@ -161,23 +161,80 @@ ul {
         letter-spacing: 0.2em;
     }
 
-    /* ARTICULO */
+    /* BOX CENTRAL */
+    .central {
+        width: 100%;
+        height: 2200px;
+        position: relative;
+    }
+    /* ARTICULO AKG MAIN CENTRAL*/
+
+    /* COLORES-HTML 
+    #dbdbdb blanco
+    #f0a500 naranja claro
+    #cf7500 naranja oscuro
+    #1d1c1c Negro
+    */
     .contenido {
         width: 50%;
-        position: relative;
+        position: absolute;
         left: 25%;
         right: 25%;
         top: 0;
     }
     .articulo-box {
-        width: 100%;
+        width: 70%;
         background-color: #1d1c1c;
-        padding: 30px;
-        border-radius: 5em;
-        margin: 40px 0;
+        
+        padding: 40px;
+        border-radius: 1em;
+        margin: 40px 10%;
         text-align: justify;
+        box-shadow: 1px 1px 2px 0 rgb(17, 17, 17);
+        color: #dbdbdb;
+        font-family: 'Comfortaa';
+        font-weight: 300;
     }
 
+
+/* MAIN SIDES */
+.sides {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 1em;
+    width: 17%;
+    /* height: 70%; */
+    position: absolute;
+}
+
+
+/* MAIN IZQUIERDO */
+.main-izquierdo {
+    left: 40px;
+    top: 40px;
+
+}
+.img-main-izq {
+    width: 100%;
+    height: 280px;
+    border-radius: 1em;
+    opacity: 0.8;
+}
+.titulo-main-izq {
+    text-align: center;
+}
+
+
+/* MAIN DERECHO */
+.main-derecho {
+    right: 40px;
+    top: 40px;
+}
+.img-main-der {
+    width: 100%;
+    height: 250px;
+    border-radius: 1em;
+}
 
 
 
@@ -188,7 +245,7 @@ ul {
     width: 100%;
     height: 200px;
     position: relative;
-    bottom: 0;
+    bottom: 1px;
     left: 0;
     right: 0;
 

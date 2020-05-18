@@ -8,26 +8,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Silicoding</title>
         <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylehtml.css" type="text/css">
       </head>
         <body>
         <header class="header-caja">
             <div class="header-centro header-bloque">
-                <img id="nombre-pagina" src="../logos/nombreletrablanca.png" alt="Silicoding">
+                <a href="../index.html" ><img id="nombre-pagina" src="../logos/nombreletrablanca.png" alt="Silicoding"></a>
             </div>
             <div class="header-derecho header-bloque">
                 <div class="rrss-header-caja">
-                    <a href="#" target="_blank"><img class="rrss-header logo-instagram" src="../logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
-                    <a href="#" target="_blank"><img class="rrss-header logo-linkedin" src="../logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
-                    <a href="#" target="_blank"><img class="rrss-header logo-twitter" src="../logos/redes-sociales/twitter.png" alt="Link Twitter" ></a>
+                    <a href="https://www.instagram.com/silicoding/" target="_blank"><img class="rrss-header logo-instagram" src="../logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
+                    <a href="https://twitter.com/silicoding" target="_blank"><img class="rrss-header logo-twitter" src="../logos/redes-sociales/twitter.png" alt="Link Twitter"></a>
+                    <a href="#" target="_blank"><img class="rrss-header logo-linkedin" src="../logos/redes-sociales/linkedin.png" alt="Link Linkedin" ></a>
                     <a href="#" target="_blank"><img class="rrss-header logo-whatsapp" src="../logos/redes-sociales/whatsapp.png" alt="Link Whatsapp"></a>
                 </div>
             </div>
             <nav class="navegacion header-izquierdo header-bloque">
                 <ul>
-                    <li class="elemento-nav html-nav"><a href="">html</a></li>
-                    <li class="elemento-nav css-nav"><a href="">css</a></li>
-                    <li class="elemento-nav contacto-nav"><a href="">contacto</a></li>
+                    <li class="elemento-nav html-nav"><a href="#html">html</a></li>
+                    <li class="elemento-nav css-nav"><a href="#css">css</a></li>
+                    <li class="elemento-nav contacto-nav" id="contacto-footer"><a href="#contacto">contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,58 +41,96 @@
                     <p class="frase-autos">by:unkown</p>
                 </div>
             </div>
-            <div class="contenido">    
-                <div class="html">
-                    <article class="articulo-box">
-                        <section class="sec-titulo">
-                            <h2 class="titulo">HTML Básico: todo lo que necesitas saber</h2>
-                            <p>En este apartado vas a conseguir todo lo básico sobre HTML</p>
-                        </section>
-                        <section class="sec-subsection">
-                            <h3 class="subtitulo">¿Qué es HTML?</h3>
-                            <p class="informacion"> Si es tu primera vez en este mundo, estoy seguro que esto el lo primero que te vas a preguntar: <b>¿Qué es HTML?</b> y la respuesta es muy sencilla.</p>
-                            <p class="informacion">  HTML, Hyper Text Markup Language por sus siglas en inglés, es un lenguaje de marcado que se utiliza para la elaboración de páginas Web.</p>
-                            <!-- <aside>
-                                ACA VAN ADD
-                            </aside> -->
-                            <p class="informacion"> Ahora, te preguntarás, <b>¿Qué es un lenguaje de marcado?</b> y la respuesta es bastanté simple. Un lenguaje de marcado es la forma en que codificas un documento de texto junto con etiquetas o marcas, con la intención de especificar las diferentes partes y la forma de presentar este texto.</p> <br>
-                            <p class="informacion">HTML es el lenguaje de marcas mas común en la actualidad y es comunmente confundido como lenguaje de programación, los cuales tienen funciones aritméticas o variables (no presentes en HTML).</p>
-                            <br>
-                            <footer>Bryan García</footer>
-                        </section>
-                    </article>
-                    <article class="articulo-box">
-                        <section class="articulo-titulo">
-                            <h2 class="titulo">¿Dónde comienzo HTML?</h2>
-                            <p class="informacion">Si esta fue tu siguiente pregunta, entonces vas por buen camino.</p>
-                        </section>
-                        <section>
-                            <p class="informacion">Actualmente existen miles de páginas web donde puedes aprender a programar y una gran variedad de cursos tanto gratuitos como pagos. Si estás comenzando es probable que no sepas si realmente esto te gusta y es lo tuyo, es por eso que te recomiendo comenzar por un curso gratuito.</p>      
-                            <!-- <aside>
-                            ACA VAN ADDS
-                            </aside> -->
-                            <p class="informacion">En este articulo te voy a enseñar las principales plataformas que usé para aprender HTML desde cero.</p>
-                        </section>
-                        <section class="">
-                            <h3 class="subtitulo">¿Dónde aprender?</h3>
-                            <p class="informacion">Antes que nada, permite advertite que todos los lenguajes de marcado y de programación, casi en su totalidad están diseñados en ingles y en base a esto, te voy a recomendar un par de cosas:</p>
-                            <ul class="lista-article">
-                                <li>Si no sabes inglés, este es tu momento de comenzar a parender.</li>
-                                <li>Si sabes aunque sea un poco, comienza a realizar los cursos en ingles.</li>
-                            </ul>
-                            <p class="informacion">Esto es importante por dos cosas. La primera es que todos los elementos o codigos que se utilizan en los lenguajes de programación se encuentran en inglés. Si puedes asociar el "nombre" de estos con su significado, será mucho más fácil recordarlos. La segunda es que en muchos de los trabajos esta una carácterística sumamente apreciada y en muchos casos, restrictiva.</p>
-                            <p class="informacion">Ahora bien, esto es solo una recomendación personal. ¿Debes detenerte si no sabes inglés? No. Esto no es en lo absoluto un impedimento para aprender.</p>
-                            <p class="informacion">Una de mis principales herramientas es la página web de <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>. </p>
-                        </section>
-                    </article>
-                  </div>
-                  <div class="CSS">
-            
-                  </div>
+            <div class="central">
+                <div class="main-izquierdo sides">
+                    <aside class="explore">
+                        <a href="#">
+                            <img class="img-main-izq" src="../fotos/cubos.jpg" alt="info">
+                            <h4 class="titulo-main-izq">Inserta titulo del artículo</h4>
+                        </a>
+                    </aside>
+                    <aside class="explorder
+                        <a href="#">
+                            <img class="img-main-izq" src="../fotos/laptop.jpg" alt="info">
+                            <h4 class="titulo-main-izq">Inserta titulo del artículo porque si es sumamente grande se verá mas bonito que centrado, vamos a probar</h4>
+                        </a>
+                    </aside>
+                    <aside class="explore">
+                        <a href="#">
+                            <img class="img-main-izq" src="../fotos/notas.jpg" alt="info">
+                            <h4 class="titulo-main-izq">Inserta titulo del artículo</h4>
+                        </a>
+                    </aside>
+                </div>
+                <div class="contenido">    
+                    <div class="html" id="html">
+                        <article class="articulo-box">
+                            <section class="articulo-titulo">
+                                <h2 class="titulo">HTML Básico: todo lo que necesitas saber</h2>
+                                <p>En este apartado vas a conseguir todo lo básico sobre HTML</p>
+                            </section>
+                            <section class="articulo-info">
+                                <h3 class="subtitulo">¿Qué es HTML?</h3>
+                                <p class="informacion"> Si es tu primera vez en este mundo, estoy seguro que esto el lo primero que te vas a preguntar: <b>¿Qué es HTML?</b> y la respuesta es muy sencilla.</p>
+                                <p class="informacion">  HTML, Hyper Text Markup Language por sus siglas en inglés, es un lenguaje de marcado que se utiliza para la elaboración de páginas Web.</p>
+                                <!-- <aside>
+                                    ACA VAN ADD
+                                </aside> -->
+                                <p class="informacion"> Ahora, te preguntarás, <b>¿Qué es un lenguaje de marcado?</b> y la respuesta es bastanté simple. Un lenguaje de marcado es la forma en que codificas un documento de texto junto con etiquetas o marcas, con la intención de especificar las diferentes partes y la forma de presentar este texto.</p> <br>
+                                <p class="informacion">HTML es el lenguaje de marcas mas común en la actualidad y es comunmente confundido como lenguaje de programación, los cuales tienen funciones aritméticas o variables (no presentes en HTML).</p>
+                                <br>
+                                <footer>Bryan García</footer>
+                            </section>
+                        </article>
+                        <article class="articulo-box">
+                            <section class="articulo-titulo">
+                                <h2 class="titulo">¿Dónde comienzo HTML?</h2>
+                                <p class="informacion">Si esta fue tu siguiente pregunta, entonces vas por buen camino.</p>
+                            </section>
+                            <section class="articulo-info">
+                                <p class="informacion">Actualmente existen miles de páginas web donde puedes aprender a programar y una gran variedad de cursos tanto gratuitos como pagos. Si estás comenzando es probable que no sepas si realmente esto te gusta y es lo tuyo, es por eso que te recomiendo comenzar por un curso gratuito.</p>      
+                                <!-- <aside>
+                                ACA VAN ADDS
+                                </aside> -->
+                                <p class="informacion">En este articulo te voy a enseñar las principales plataformas que usé para aprender HTML desde cero.</p>
+                            </section>
+                            <section class="articulo-info">
+                                <h3 class="subtitulo">¿Dónde aprender?</h3>
+                                <p class="informacion">Antes que nada, permite advertite que todos los lenguajes de marcado y de programación, casi en su totalidad están diseñados en ingles y en base a esto, te voy a recomendar un par de cosas:</p>
+                                <ul class="lista-article">
+                                    <li>Si no sabes inglés, este es tu momento de comenzar a parender.</li>
+                                    <li>Si sabes aunque sea un poco, comienza a realizar los cursos en ingles.</li>
+                                </ul>
+                                <p class="informacion">Esto es importante por dos cosas. La primera es que todos los elementos o codigos que se utilizan en los lenguajes de programación se encuentran en inglés. Si puedes asociar el "nombre" de estos con su significado, será mucho más fácil recordarlos. La segunda es que en muchos de los trabajos esta una carácterística sumamente apreciada y en muchos casos, restrictiva.</p>
+                                <p class="informacion">Ahora bien, esto es solo una recomendación personal. ¿Debes detenerte si no sabes inglés? No. Esto no es en lo absoluto un impedimento para aprender.</p>
+                                <p class="informacion">Una de mis principales herramientas es la página web de <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>. </p>
+                            </section>
+                        </article>
+                    </div>
+                    <div class="CSS" id="css">
+                    </div>
+                </div>
+                <div class="main-derecho sides">
+                    <aside class="ads">
+                        <a href="#" target="_blank">
+                            <img class="img-main-der" src="../fotos/ads1.jpg" alt="ads">
+                        </a>
+                    </aside>
+                    <aside class="ads">
+                        <a href="#" target="_blank">
+                            <img class="img-main-der" src="../fotos/ads2.jpg" alt="ads">
+                        </a>
+                    </aside>
+                    <aside class="ads">
+                        <a href="#" target="_blank">
+                            <img class="img-main-der" src="../fotos/ads3.jpg" alt="ads">
+                        </a>
+                    </aside>
+                </div>
             </div>
         </main>
         <footer class="footer">
-            <div class="footer-container">
+            <div class="footer-container" id="contacto">
                 <div class="footer-interno rrss">
                     <a  href="#" target="_blank"><img class="rrss-footer logo-instagram" src="../logos/redes-sociales/instagram.png" alt="Link Instagram"></a>
                     <a  href="#" target="_blank"><img class="rrss-footer logo-linkedin" src="../logos/redes-sociales/linkedin.png" alt="Link Linkedin"></a>
